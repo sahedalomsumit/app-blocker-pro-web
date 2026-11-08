@@ -14,7 +14,7 @@ Open `index.html` directly, or serve this directory with any static web server. 
 
 ## Add your images
 
-All image spaces are intentionally blank: the brand logo slots, the hero phone, four screenshot slots, and the wide feature graphic. There are no broken image URLs or sample screenshots.
+The app logo in `img/app_blocker_pro_logo.png` is used for all brand marks, the favicon, and the Apple touch icon. The hero phone, four screenshot slots, and the wide feature graphic remain intentionally blank. There are no broken image URLs or sample screenshots.
 
 Create an `img/` directory and insert an image inside each matching placeholder, for example:
 
@@ -24,12 +24,12 @@ Create an `img/` directory and insert an image inside each matching placeholder,
 </div>
 ```
 
-- `.logo-slot`: square app icon, repeated in each page header/footer and the homepage closing section.
+- `.logo-slot`: square app icon, repeated in each page header/footer and the homepage closing section; its shared background image is configured in `style.css`.
 - `.hero-image`: approximately 9:19.5 portrait screenshot; use `fetchpriority="high"` instead of lazy loading for this one.
 - `.screen-image`: four approximately 9:19.5 screenshots, ordered Usage, Focus, Reducers, Settings.
 - `.feature-image`: approximately 2.06:1 wide feature graphic.
 
-When replacing a placeholder's `role="img"` with a real image, remove that placeholder's `role` and `aria-label`; put an accurate `alt` description on the image instead. Add favicon and Open Graph image metadata when final artwork is ready.
+When replacing a placeholder's `role="img"` with a real image, remove that placeholder's `role` and `aria-label`; put an accurate `alt` description on the image instead. Add Open Graph image metadata when the final feature artwork is ready.
 
 ## Design and content
 
